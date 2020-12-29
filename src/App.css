@@ -1,0 +1,168 @@
+body {
+  width: 100%;
+  background-color: rgb(252, 240, 201);
+}
+
+#container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin:auto;
+  width: 70%;
+  border: 5px double gold;
+  padding: 10px;
+}
+
+#nav {
+  background-color: rgb(17, 17, 110);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#title {
+  display: inline;
+
+  font-size: x-large;
+  font-family: 'Black Han Sans', sans-serif;
+  font-style: italic;
+  margin-left: 5%;
+  color: rgb(179, 237, 255);
+}
+
+a {
+  margin: 4%;
+  text-decoration: none;
+  color: rgb(255, 233, 107);
+  display: inline-block;
+  width: auto;
+  margin-top: 5%;
+  font-size: larger;
+}
+
+#balance {
+  margin-bottom: 4%;
+}
+
+.section-title {
+  text-decoration: underline;
+}
+
+.positive-amount {
+  display: inline-block;
+  color: green;
+  margin-left: 3%;
+  
+}
+
+.negative-amount {
+  display: inline-block;
+  color: red;
+  margin: 3%;
+}
+
+#high-balance {
+  color: green;
+  margin-left: 2%;
+}
+
+#low-balance {
+  color: red;
+  margin-left: 2%;
+}
+
+.fas {
+  display: inline;
+  cursor: pointer;
+}
+
+.transaction {
+  display: inline-block;
+  margin: 1%;
+  margin-bottom: 2%;
+  font-size: larger;
+}
+
+label {
+  margin: 2%;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: x-large;
+  margin-bottom: 1.5%;
+}
+
+.li-title {
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+#title-tr {
+  background-color: rgba(179, 255, 239, 0.664);
+  font-weight: 800;
+}
+
+.back-to-main {
+  margin: 0.5%;
+}
+
+#back-links {
+  margin-left: 2%;
+}
+
+@media(max-width: 768px){
+
+  #container {
+    width: 90%;
+  }
+  
+  #title {
+    font-size: large;
+  }
+  
+  a {
+    margin-top: 10%;
+    font-size: large;
+    float: right;
+  }
+  
+  .positive-amount {
+    margin-left: 8%;
+  }
+  
+  .negative-amount {
+    margin: 8%;
+  }
+  
+  label {
+    margin-left: 0;
+    margin-bottom: 2%;
+    display: block;
+  }
+  
+  .li-title {
+    font-weight: bold;
+    margin-right: 2%;
+  }
+  
+  h2 {
+    font-size: large;
+  }
+}
+
+
